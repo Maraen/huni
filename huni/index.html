@@ -3,23 +3,34 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Huni Home page</title>
+	
+	<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,400,700|Roboto" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="../styles/styles.css">
-	<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans|Montserrat|Roboto" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../styles/icomoone/style.css">
+
+	
 </head>
 <body>
 	<div class="container">
-		<header>
+		<header class="merriweather-light">
 			
 			<nav>
-				<figure id="lionBlanc">
-					<img src="../assets/lionBlanc.png" alt="logo">
-				</figure>
 				<ul class="ul-inline-block" id="navList">
-					<li>How it Work</li>
-					<li>Product</li>
-					<li>Pricing</li>
-					<li>Blog</li>
-					<li>Contact</li>
+					<li>
+						<figure id="lionBlanc">
+							<img class="lion-fix2" src="../assets/lionBlanc.png" alt="logo">
+						</figure>
+					</li>
+					<li>
+						<span class="huni-header">Huni</span>
+					</li>
+
+
+					<li><a href="#HowItWorkH2">How it Work</a></li>
+					<li><a href="#productLink">Product</a></li>
+					<li><a href="#pricingPlan">Pricing</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="contact.html">Contact</a></li>
 				</ul>
 
 				<!--<ul class="ul-inline-block" id="inlineBtn">-->
@@ -39,13 +50,13 @@
 			<section id="section-01">
 				<div class="container">
 					<div class="Huni-Connect">
-						<h1>Huni Connect To Your Device</h1> <br />
+						<h1 class="merriweather-bold">Huni Connect To Your Device</h1> <br />
 						<p>We Offer A Full Range introzap service in the worldwide just make your area save</p>
 					</div>
 
 					<div class="below-section-01">
-						<figure class="rounded-btn" id="btnGetStarted">Get Started</figure>
-						<figure class="rounded-btn" id="btnGetStarted">Buy Now</figure>
+						<figure class="rounded-btn merriweather-light" id="btnGetStarted">Get Started</figure>
+						<figure class="rounded-btn merriweather-light" id="btnGetStarted">Buy Now</figure>
 					</div>
 
 					<figure id="macbook">
@@ -54,10 +65,12 @@
 				</div>
 			</section>
 
+			<!--SECTION 2____________________________-->
+
 			<section id="section-02">
 				<div class="container">
-					<h2>Everything you need</h2>
-					<p id="belowEverything">After 5 years of working with other cellular providers and worrying about cellular data plans, Holograms allowed us to seamlessly deploy our devices.</p>
+					<h2 id="productLink">Everything you need</h2>
+					<p class="merriweather-light below-everything" id="belowSection02">After 5 years of working with other cellular providers and worrying about cellular data plans, Holograms allowed us to seamlessly deploy our devices.</p>
 
 					<div class="everything-float-left"> <!--float left-->
 						<figure id="EverythingBigImage">
@@ -72,7 +85,7 @@
 							</figure>
 						</div>
 						<div class="everything-mini-float-right">
-							<h3>Free App Management</h3>
+							<h3 class="merriweather-bold">Free App Management</h3>
 							<p class="everything-box">
 								Free app management rules to automate the process for employees
 							</p>
@@ -83,7 +96,7 @@
 							</figure>
 						</div>
 						<div class="everything-mini-float-right">
-							<h3>Free Desktop Management</h3>
+							<h3 class="merriweather-bold">Free Desktop Management</h3>
 							<p class="everything-box">
 								Free desktop management rules to automate  the process for employess
 							</p>
@@ -96,8 +109,8 @@
 			<section id="section-03">
 				<div class="container">
 					<h2>Give your home a voice</h2>
-					<div class="below-everything-box">
-						<p id="belowEverything">
+					<div id="belowEverythingBox">
+						<p class="below-everything merriweather-light" id="colorWhite">
 							You have enough to take care of it when it comes to your home and your Family.
 							Notion let's you monitor your entire home even you're not there.
 						</p>
@@ -106,9 +119,9 @@
 						
 					</div>
 					<div>
-						<h2>How it Work</h2>
-						<p id="belowEverything">
-							After 5 years of working with pther cellular providers and worrying about cellular plans, Hologram allowed us to seamlessly deploy our devices. 
+						<h2 id="HowItWorkH2">How it Work</h2>
+						<p class="below-everything merriweather-light">
+							After 5 years of working with other cellular providers and worrying about cellular plans, Hologram allowed us to seamlessly deploy our devices. 
 						</p>
 					</div>
 					<div class="how-float-left">
@@ -117,8 +130,8 @@
 								<img src="../assets/certificat.png" alt="">
 							</figure>
 
-							<h3>Easy to install</h3>
-							<p>
+							<h3 class="merriweather-bold h3-03">Easy to install</h3>
+							<p class="merriweather-light colorGrey">
 								We built Notion to fit effortlessly into your home. Just pair, peel and stick! No complicated set-up, we promise!
 							</p>
 						</div>
@@ -129,8 +142,8 @@
 								<img src="../assets/airport.png" alt="">
 							</figure>
 
-							<h3>Go Global with Ease</h3>
-							<p>
+							<h3 class="merriweather-bold h3-03">Go Global with Ease</h3>
+							<p class="merriweather-light colorGrey">
 								Cellular Networks are hard. Our global cell network makes it easy to connect your devices.
 							</p>
 						</div>
@@ -141,8 +154,8 @@
 								<img src="../assets/pen.png" alt="">
 							</figure>
 
-							<h3>Connectivity in PC</h3>
-							<p>
+							<h3 class="merriweather-bold h3-03">Connectivity in PC</h3>
+							<p class="merriweather-light colorGrey">
 								Easy Connectivity for machines and PC, laptop, mobiles device Notion let's you monitor your entire home.
 							</p>
 						</div>
@@ -153,8 +166,8 @@
 
 			<section id="section-04"> <!--background grey--> 
 				<div class="container">
-					<figure>
-						<!--apostrophe-->
+					<figure class="quotes">
+						<img class="quotes-absolute" src="../assets/quotes.png" alt=""><!--apostrophe-->
 					</figure>
 					<div class="below-section-04">
 						<div>
@@ -162,33 +175,39 @@
 								After 5 years of working with other cellular providers and worrying about cellular data plans, Hologram allowed us to seamlessly deploy our devices around the world so we can focus more on using the data our devices generate.
 							</p>
 						</div>
-						<div id="jeanRochefort">
-							<div id="line"> <!--line--> </div>
-							<p id="jeanRochefort2">Jean Rochefort</p>
-						</div>
 					</div>
-					<div>
-						<div id="pricingPlan">
-							<h2>Pricing Plan</h2>
-						</div>
+					<div id="jeanRochefort">
+						<div id="line"> <!--line--> </div>
+						<p class="merriweather-bold" id="jeanRochefort2">Jean Rochefort</p>
 					</div>
-
 				</div>
+
+				<div>
+					<div id="pricingPlan">
+						<h2>Pricing Plan</h2>
+					</div>
+					<div class="overflow">
+						<div class="grey-bubble">
+
+						</div>
+					</div>
+				</div>
+				
 			</section>
 
 			<section id="section-05">
 				<div class="container">
 					<div class="float-05">
 						<div class="mini-container-05">
-							<h3 id="h3-05">
+							<h3 class="merriweather-light" id="h3-05">
 								Pricing for the #1 Rated<br /> Online Timesheet <br />Software
 							</h3>
 							<div>
-								<div class="rounded-btn" id="btn05">Monthly</div>
-								<div class="rounded-btn" id="btn05">Weekly</div>
+								<div class="rounded-btn merriweather-bold" id="btn05">Monthly</div>
+								<div class="rounded-btn merriweather-bold" id="btn05">Weekly</div>
 								<!--Btn x2-->
 							</div>
-							<div id="free05">
+							<div class="roboto" id="free05">
 								<p>
 									With the free Developer Plan, Pay-as-You-Go, and Monthly plan options
 								</p>
@@ -198,46 +217,47 @@
 						</div>
 					</div>
 					<div class="float-05">
+						<div class="circle-card"></div>
 						<div class="mini-container-05" id="whiteContainer05">
-							
-							<h4 id="standard">Standard</h4>
-							<p id="money">
+							<h4 class="merriweather-bold" id="standard">Standard</h4>
+							<p class="merriweather-bold" id="money">
 								$40
 							</p>
-							<div id="inside05">
+							<div class="merriweather-light" id="inside05">
 								<p>
 									Plan, Pay-as-You-Go, and Monthly plan options, 
-									<ul>
-										<li>Up to 40 active</li>
-										<li>Unlimited Profiles</li>
-										<li>Unlimited Emails</li>
-										<li>Ongoing success webinares</li>
+									<ul class="ul-section-05">
+										<li><span class="icon-arrow-circle-right"></span>Up to 40 active</li>
+										<li><span class="icon-arrow-circle-right"></span>Unlimited Profiles</li>
+										<li><span class="icon-arrow-circle-right"></span>Unlimited Emails</li>
+										<li><span class="icon-arrow-circle-right"></span>Ongoing success webinares</li>
 									</ul>
 								</p>
 							</div>
-							<div>
+							<div class="btn-section-05">
 								<div class="rounded-btn" id="btnSection05">Get Started</div><!--btn-->
 							</div>
 						</div>
 					</div>
 					<div class="float-05">
+						<div class="circle-card"></div>
 						<div class="mini-container-05" id="whiteContainer05">
-							<h4 id="standard">Enterprise</h4>
-							<p id="money">
+							<h4 class="merriweather-bold" id="standard">Enterprise</h4>
+							<p class="merriweather-bold" id="money">
 								$90
 							</p>
-							<div id="inside05">
+							<div class="merriweather-light" id="inside05">
 								<p>
 									Building, And scaling your device connectively and seamlessly
-									<ul>
-										<li>Up to 100 active</li>
-										<li>Unlimited Profiles</li>
-										<li>Unlimited Emails</li>
-										<li>Ongoing success webinares</li>
+									<ul class="ul-section-05">
+										<li><span class="icon-arrow-circle-right"></span>Up to 100 active</li>
+										<li><span class="icon-arrow-circle-right"></span>Unlimited Profiles</li>
+										<li><span class="icon-arrow-circle-right"></span>Unlimited Emails</li>
+										<li><span class="icon-arrow-circle-right"></span>Ongoing success webinares</li>
 									</ul>
 								</p>
 							</div>
-							<div>
+							<div class="btn-section-05">
 								<div class="rounded-btn" id="btnSection05">Get Started</div><!--btn-->
 							</div>
 						</div>
@@ -247,8 +267,8 @@
 
 			<section id="section-06">
 				<div class="container">
-					<div><div></div><h2>Huni Benefits</h2></div>
-					<div id="belowBenefits">
+					<div><div></div><h2 class="merriweather-bold">Huni Benefits</h2></div>
+					<div class="merriweather-light colorGrey" id="belowBenefits">
 						<p>
 							With over 2 million mobile apps in the major app stores, getting your app discovered is one of the biggest issues facing mobile app publishers today.
 						</p>
@@ -257,7 +277,7 @@
 						<div class="mini-container-06">
 							<div>
 								<figure>
-									<img src="../assets/6_1.png" alt="img">
+									<img class="height-limit" src="../assets/6_1.png" alt="img">
 								</figure>
 							</div>
 							<h5 class="h5-06">
@@ -272,7 +292,7 @@
 						<div class="mini-container-06">
 							<div>
 								<figure>
-									<img src="../assets/6_2.png" alt="img">
+									<img class="height-limit" src="../assets/6_2.png" alt="img">
 								</figure>
 							</div>
 							<h5 class="h5-06">
@@ -287,7 +307,7 @@
 						<div class="mini-container-06">
 							<div>
 								<figure>
-									<img src="../assets/6_3.png" alt="img">
+									<img class="height-limit" src="../assets/6_3.png" alt="img">
 								</figure>
 							</div>
 							<h5 class="h5-06">
@@ -306,15 +326,29 @@
 					<h2 class="h2-07">
 						Download Our Free Apps On You Device
 					</h2>
-					<div class="below-section-07">
+					<div class="below-section-07 merriweather-light" id="merriweatherLight">
 						<p>
 							With the free Developer Plan, Pay-as-You-Go, and Monthly plan options, Hologram's IoT cellular platform offers simple, transparent pricing plans for getting started, building
 						</p>
 					</div>
-					<div>
-						<!--btn-->
-						<!--Iphone-->
-						<!--btn-->
+					<div class="mini-container-07">
+
+						<div class="float-07">
+							<div class="rounded-btn" id="blackBtn">
+								<span class="icon-apple"></span>Download Apps
+							</div><!--btn-->
+						</div>
+
+						<div class="float-07-1">
+
+							<img src="../assets/iphone.png" alt="zephone">
+
+						</div><!--Iphone-->
+						<div class="float-07">
+							<div class="rounded-btn" id="blackBtn">
+								<img src="../assets/google-play.png" alt="">Google Play
+							</div><!--btn-->
+						</div>
 					</div>
 				</div>
 			</section>
@@ -324,25 +358,48 @@
 					<h2>
 						Recent News
 					</h2>
-					<p>
-						Here small titles for recent Blog with other cellular providers and worrying about cellular data plans, Hologram allowed us to seamlessly deploy our devices.
-					</p>
+					<div class="below-recent merriweather-light">
+						<p>
+							Here small titles for recent Blog with other cellular providers and worrying about cellular data plans, Hologram allowed us to seamlessly deploy our devices.
+						</p>
+					</div>
 
-					<div>
-						<div>
-							<p>
-								Things you need to know before renting out your home
-							</p>
+					<div class="merriweather-bold">
+						<div class="float-08">
+							<div class="mini-container-08">
+								<a href="blog-details.html"><div class="image-grey">
+
+								</div></a>
+								<div id="container-08">
+									<p id="paragraph-08">
+										Things you need to know before renting out your home
+									</p>
+								</div>
+							</div>
 						</div>
-						<div>
-							<p>
-								Sort your paperwork for home loan success
-							</p>
+						<div class="float-08">
+							<div class="mini-container-08">
+								<a href="blog-details.html"><div class="image-grey">
+
+								</div></a>
+								<div id="container-08">
+									<p id="paragraph-08">
+										Sort your paperwork for home loan success
+									</p>
+								</div>
+							</div>
 						</div>
-						<div>
-							<p>
-								One of Kymera Systems' main strengths lies in PLC
-							</p>
+						<div class="float-08">
+							<div class="mini-container-08">
+								<a href="blog-details.html"><div class="image-grey">
+
+								</div></a>
+								<div id="container-08">
+									<p id="paragraph-08">
+										One of Kymera Systems' main strengths lies in PLC
+									</p>
+								</div>
+							</div>
 						</div>
 					</div>
 
@@ -355,7 +412,7 @@
 				<h4 id='trustH4'>
 					Trusted by developers and businesses of all sizes to enable worldwide connectivity.
 				</h4>
-				<!-- align sur photoshop-->
+				
 				<figure>
 					<ul class="ul-inline-block" id="logo-client">
 						<li><img src="../assets/aos.jpg" alt="aos-logo"></li>
@@ -369,7 +426,7 @@
 			<div class="background-demo">
 				<div class="container">
 					<h2 id="requestDemoH2">We offer Free demo for new Customer</h2>
-					<div class="rounded-btn">
+					<div class="rounded-btn merriweather-light">
 						Request a demo
 					</div>
 				</div>
@@ -380,7 +437,7 @@
 					<div>
 						<div class="search-bar">
 							<input type="text" placeholder="Type your email">
-							<div class="rounded-btn" id="redBtn">
+							<div class="rounded-btn merriweather-light" id="redBtn">
 								subscribe
 							</div>
 						</div>
@@ -389,39 +446,52 @@
 						<div class="float" id="floatLeft">
 							<ul>
 								<span class="noPadding">
-									<li><img src="../assets/lion.png" alt="lion">
+									<li><img class="lion-fix" src="../assets/lion.png" alt="lion">
 									</li>
 								</span>
 								<li>
 									<span id="footerHuni">Huni</span>
 								</li>
 							</ul>
-						</div>
-						<div class="float" id=floatCenter>
 							<ul>
-								<li>+8801912704287</li>
-								<li>Contact Us</li>
-								<li>Support Resources</li>
-								<li>About Us</li>
-							</ul>
-						</div>
-						<div class="float" id="floatRight">
-							<ul>
-								<li>Blog</li>
-								<li>Documentation</li>
-								<li>Community</li>
-								<li>Privacy</li>
-							</ul>
+								<li>
+									<span class="icon-facebook red px22 margin-right"></span></li>
+									<li>
+										<span class="icon-twitter red px22 margin-right"></span>
+									</li>
+									<li>
+										<span class="icon-pinterest-p red px22 margin-right"></span>
+									</li>
+									<li>
+										<span class="icon-dribbble red px22 margin-right"></span>
+									</li>
+								</ul>
+							</div>
+							<div class="float" id=floatCenter>
+								<ul>
+									<li>+8801912704287</li>
+									<li>Contact Us</li>
+									<li>Support Resources</li>
+									<li>About Us</li>
+								</ul>
+							</div>
+							<div class="float" id="floatRight">
+								<ul>
+									<li>Blog</li>
+									<li>Documentation</li>
+									<li>Community</li>
+									<li>Privacy</li>
+								</ul>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="footer-original">
-				<div class="container">
-					<p>Copyright 2017 &#169; <span id="redText"> 2017, Huni</span> All rights reserved.</p>
+				<div class="footer-original">
+					<div class="container">
+						<p>Copyright 2017 &#169; <span id="redText"> 2017, Huni</span> All rights reserved.</p>
+					</div>
 				</div>
-			</div>
 
-		</footer>
-	</body>
-	</html>
+			</footer>
+		</body>
+		</html>
